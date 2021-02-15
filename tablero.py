@@ -31,5 +31,7 @@ class Tablero:
         return res
 
 
-c = Tablero(15, 20)
+x = input("Número de filas del tablero ")
+y = input("Número de columnas del tablero ")
+c = Tablero(x, y)
 print(c)
