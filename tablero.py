@@ -38,3 +38,5 @@ c = Tablero(x, y)
 
 for i in range(2):
     print(c)
+
+print("Hola mundo")
