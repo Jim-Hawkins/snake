@@ -31,7 +31,10 @@ class Tablero:
         return res
 
 
-x = input("Número de filas del tablero ")
-y = input("Número de columnas del tablero ")
+x = input("Introduce el número de filas del tablero ")
+y = input("Introduce el número de columnas del tablero ")
 c = Tablero(x, y)
-print(c)
+
+
+for i in range(2):
+    print(c)
