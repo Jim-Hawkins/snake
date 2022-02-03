@@ -30,6 +30,7 @@ class Tablero:
 
         return res
 
+"""Texto de ejemplo para modificar el archivo"""
 
 c = Tablero(15, 20)
 print(c)
